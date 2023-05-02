@@ -4,7 +4,7 @@ import { Bar } from "react-chartjs-2";
 import { Chart, registerables} from 'chart.js';
 
 Chart.register(...registerables);
-const BarChartYear = (props) => {
+const BarChartYear = (props:any) => {
     // console.log(props)
     // const citrus = props.props.slice(430, 550);
   const colors = props.props.map(abc => abc.value > 50 ? '#F28E2C' : '#4E79A7');

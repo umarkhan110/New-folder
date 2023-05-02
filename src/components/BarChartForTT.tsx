@@ -4,7 +4,7 @@ import { Bar } from "react-chartjs-2";
 import { Chart, registerables} from 'chart.js';
 
 Chart.register(...registerables);
-const BarChartTT = (props) => {
+const BarChartTT = (props:any) => {
     // console.log(Object.values(props.props[1].value))
     // console.log(Object.keys(props.props[1].value))
     // console.log(props.props)
