@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, createRef } from "react";
 import Slider from "rc-slider";
-import { uploadMapboxTrack } from "@components/mapboxtrack";
+import { uploadMapboxTrack } from "../components/mapboxtrack";
 import TooltipSlider from "../components/TooltipSlider";
 
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
